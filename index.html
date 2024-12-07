@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Icon" href="./media/diseno-grafico.png" />
+    <title>J Designer P</title>
+    <link rel="stylesheet" href="./Styles/Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="menu-icon" id="menu-icon">
+      <!-- <h3>MENU</h3> -->
+      <?xml version="1.0" encoding="UTF-8"?>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="Bold"
+        viewBox="0 0 24 24"
+        width="512"
+        height="512"
+      >
+        <path d="M8,7H22.5a1.5,1.5,0,0,0,0-3H8A1.5,1.5,0,0,0,8,7Z" />
+        <path d="M22.5,11H8a1.5,1.5,0,0,0,0,3H22.5a1.5,1.5,0,0,0,0-3Z" />
+        <path d="M22.5,18H8a1.5,1.5,0,0,0,0,3H22.5a1.5,1.5,0,0,0,0-3Z" />
+        <circle cx="2.5" cy="5.5" r="2.5" />
+        <circle cx="2.5" cy="12" r="2.5" />
+        <circle cx="2.5" cy="19" r="2.5" />
+      </svg>
+    </div>
+
+    <h1>Juan Sebastian Parra</h1>
+
+    <canvas id="particles"></canvas>
+
+    <div class="content">
+      <h2>I AM DESIGNER</h2>
+      <p>Explora mis proyectos, habilidades y creatividad</p>
+    </div>
+
+    <div class="menu" id="menu">
+      <li><a href="#about">sobre mi</a></li>
+      <li><a href="#proyectos">proyectos</a></li>
+      <li><a href="#servicios">servicios</a></li>
+      <li><a href="#contac">contactos</a></li>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="image-container">
+      <div class="SOBRE-MI">
+        <h2>SOBRE MI</h2>
+        <img class="about" id="about" src="./media/por.jpg" alt="ME" />
+        <p class="text-overlay" id="text-overlay">
+          Soy diseñador gráfico de la Universidad Autónoma del Caribe,
+          apasionado por la creación de diseños limpios y minimalistas. <br />
+          Me especializo en diseño 3D y flyers, con un enfoque en eliminar lo
+          innecesario y destacar lo esencial. <br />
+          Me motiva aprender nuevas técnicas y dominar diferentes programas,
+          siempre busco superar mis propios límites. <br />
+          Actualmente estoy fortaleciendo mis habilidades en Photoshop y
+          disfruto explorar paletas monocromáticas que añadan elegancia y
+          simplicidad a mis proyectos.
+        </p>
+      </div>
+    </div>
+
+    <div class="proyectos" id="proyectos">
+      <button class="gallery-btn" id="prev-btn">◀</button>
+      <div class="gallery-wrapper">
+        <div class="gallery" id="gallery">
+          <img
+            src="./media/LOGO_Mesa de trabajo 1-01.png"
+            alt="Proyecto 1"
+            id="img"
+            class="gallery-img"
+          />
+          <img
+            src="./media/2.jpg"
+            alt="Proyecto 2"
+            id="img"
+            class="gallery-img"
+          />
+          <img
+            src="./media/3.jpg"
+            alt="Proyecto 3"
+            id="img"
+            class="gallery-img"
+          />
+          <img
+            src="./media/pinocho.jpg"
+            alt="Proyecto 4"
+            id="img"
+            class="gallery-img"
+          />
+          <img
+            src="./media/dylan.jpg"
+            alt="Proyecto 5"
+            id="img"
+            class="gallery-img"
+          />
+        </div>
+      </div>
+      <button class="gallery-btn" id="next-btn">▶</button>
+    </div>
+
+    <p class="carrusel" id="carrusel">
+      "Este carrusel reúne algunos de mis proyectos más destacados, donde he
+      explorado desde modelado 3D y fotomontajes. <br />
+      Cada trabajo representa un desafío técnico y creativo que ha impulsado mi
+      crecimiento como diseñador."
+    </p>
+
+    <section class="Blender" id="Blender">
+      <div class="Blender-content">
+        <p>
+          Este video es mi proyecto más grande hasta la fecha, ya que incluyó un
+          modelado 4D y renderizado para una marca de ropa emergente. <br />
+          Utilicé Blender para crear elementos tridimensionales que capturaran
+          la esencia de la marca, con simulaciones realistas y efectos
+          dinámicos. <br />
+          Este trabajo representó un desafío creativo y técnico, marcando un
+          hito en mi desarrollo profesional.
+        </p>
+        <div class="Blender-icon">
+          <img
+            src="./media/blender_logo.png"
+            alt="Blender Icon"
+            class="Blender-logo"
+          />
+        </div>
+      </div>
+      <div class="gallery-Blender" id="gallery-Blender">
+        <video
+          src="./media/1.mp4"
+          class="Video-Blender"
+          id="Video-Blender"
+          controls
+          autoplay
+        ></video>
+      </div>
+    </section>
+
+    <section id="montajes" class="montajes">
+      <div class="montajes-content">
+        <p>
+          Este fotomontaje representa uno de mis proyectos más desafiantes en
+          Photoshop, donde transformé una ciudad en ruinas para crear una
+          atmósfera postapocalíptica. <br />
+          Combiné múltiples imágenes, efectos de luz y texturas para lograr un
+          resultado impactante y realista. <br />
+          Este trabajo me permitió explorar la narrativa visual y perfeccionar
+          técnicas avanzadas de edición, destacando mi evolución creativa.
+        </p>
+        <div class="gallery-photo">
+          <img
+            src="./media/Frame 40.png"
+            alt="Photoshop Icon"
+            class="Photoshop-img"
+          />
+        </div>
+      </div>
+      <div class="image-photoshop">
+        <div class="particle-container">
+          <img
+            src="./media/ciudad.jpg"
+            alt="Ciudad postapocalíptica"
+            class="ciudad"
+            id="ciudad"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="demostracion" id="demostracion">
+      <div class="Bola-content" id="Bola-content">
+        <p class="elimina-title">
+          <strong>ELIMINA</strong> <small>LO</small> <br />
+          <strong>INNECESARIO</strong> <br />
+          <small>Y DEJA LO</small> <strong>ESENCIAL</strong>
+        </p>
+
+        <div class="Bola-img" id="Bola-img">
+          <img
+            src="./media/dsfsdfsfs.png"
+            alt="Imagen-Bola"
+            class="Bola"
+            id="Bola"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="servicios" id="servicios">
+        <h2>SERVICIOS</h2>
+        <div class="servicio">
+          <h3>MODELADO 3D</h3>
+          <p>
+            Doy vida a tus ideas a través de modelados tridimensionales, creando
+            renders realistas y detallados que destacan por su precisión técnica
+            y creatividad.
+          </p>
+        </div>
+        <div class="servicio">
+          <h3>PUBLICIDAD</h3>
+          <p>
+            Transformo imágenes en composiciones impactantes que cuentan
+            historias, combinando creatividad y técnica para lograr resultados
+            visualmente atractivos.
+          </p>
+        </div>
+        <div class="servicio">
+          <h3>FOTOMONTAJE</h3>
+          <p>
+            Diseño piezas publicitarias modernas y efectivas que conectan con tu
+            audiencia, transmitiendo el mensaje de tu marca de manera clara y
+            memorable.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contac" class="contac">
+      <div class="medios" id="medios">
+        <h4>DALE VIDA A TUS PROYECTOS</h4>
+
+        <div class="img-medios" id="img-medios">
+          <img
+            src="./media/Frame 32.png"
+            alt="medios"
+            class="medios-img"
+            id="medios-img"
+          />
+          <img
+            src="./media/Frame 40.png"
+            alt="medios"
+            class="medios-img"
+            id="medios-img"
+          />
+          <img
+            src="./media/Frame 41.png"
+            alt="medios"
+            class="medios-img"
+            id="medios-img"
+          />
+          <img
+            src="./media/Frame 31.png"
+            alt="medios"
+            class="medios-img"
+            id="medios-img"
+          />
+          <img
+            src="./media/Frame 29.png"
+            alt="medios"
+            class="medios-img"
+            id="medios-img"
+          />
+        </div>
+      </div>
+
+      <div class="redes" id="redes">
+        <h4>CONTACTAME</h4>
+
+        <div class="redes-images">
+          <a href="https://wa.me/3132031267" target="_blank">
+            <img
+              src="./media/vecteezy_whatsapp-logo-png-icon_16716480 1.png"
+              alt="WhatsappLOGO"
+              id="redes-img"
+              class="redes-img"
+            />
+          </a>
+
+          <a href="https://www.behance.net/juanp21" target="_blank">
+            <img
+              src="./media/behance_logo_icon_189229 1.png"
+              alt="BehanceLOGO"
+              id="redes-img"
+              class="redes-img"
+            />
+          </a>
+
+          <a href="mailto:sebastian.0720p@gmail.com" target="_blank">
+            <img
+              src="./media/gmail.png"
+              alt="Correo"
+              id="redes-img"
+              class="redes-img"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="./JS/Script.js"></script>
+    <script src="./JS/Particles.js"></script>
+  </body>
+</html>
